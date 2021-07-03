@@ -19,6 +19,9 @@ singleGridHover.forEach((i) => {
   });
 });
 
+// button for a new grid
+const button = document.getElementsByClassName("button");
+
 /*
 3. Add a button to the top of the screen which will clear the current grid and send the user a popup asking for the number of squares per side for the new grid. Once entered, the new grid should be generated in the same total space as before (e.g. 960px wide) so that you’ve got a new sketch pad. Tip: Set the limit for the user input to a maximum of 100. A larger number of squares results in more computer resources being used, potentially causing delays, freezing, or crashing that we want to prevent.
     1. Research button tags in HTML and how you can make a JavaScript function run when one is clicked.
