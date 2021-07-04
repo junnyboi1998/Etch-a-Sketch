@@ -5,6 +5,8 @@
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(16, 1fr);
+  left: 33%;
+  right: 33%;
 }
 .center {
   position: relative;
@@ -25,4 +27,7 @@ h1 {
 .button {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: lightslategrey;
+  position: relative;
+  left: 47%;
 }
